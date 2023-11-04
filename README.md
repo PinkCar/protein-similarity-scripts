@@ -17,6 +17,9 @@ The txt contains FASTA formatted proteins separated by 2 newline characters vvvv
 ```
 file format ^^^^
 
+#### The server can be quite slow, so be patient!
+
+
 ## vicmpred.py
 VICMpred an SVM-based functional classification server for Gram-negative bacterial proteins that functionally classify the proteins into different categories based on amino acid composition. The script takes input from a file.
 
