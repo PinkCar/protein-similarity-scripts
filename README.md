@@ -2,6 +2,8 @@
 
 The scripts in this repo is used for automating similarity search against a number of protein databases available online. Some of these websites require you to copy and paste the proteins' sequences manually and sometimes they can only take one input at a time! These scripts help you to automate these requests without having to input one by one which can be annoying and takes a lot of time. 
 
+Feel free to use the scripts but, just put me in the reference! ^^
+
 ## chembl-similarity-protein.py
 ChEMBL is a curated database of bioactive chemical compounds maintained by the EMBL. The script takes input from a file.
 
