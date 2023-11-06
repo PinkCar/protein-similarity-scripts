@@ -19,7 +19,12 @@ The txt contains FASTA formatted proteins separated by 2 newline characters vvvv
 ```
 file format ^^^^
 
+For a faster version, check v2!
+
 #### The server can be quite slow, so be patient!
+
+## chembl_v2.py
+This is the faster version of chembl-similarity-protein.py, done with asynchronous requests. Same inputs as above!
 
 
 ## vicmpred.py
