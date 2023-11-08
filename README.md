@@ -7,6 +7,10 @@ Feel free to use the scripts but, just put me in the reference! ^^
 ## chembl-similarity-protein.py
 ChEMBL is a curated database of bioactive chemical compounds maintained by the EMBL. The script takes input from a file.
 
+
+### Usage
+Open the python file using a code/text editor and change the variable 'filename' to your file name.
+
 The txt contains FASTA formatted proteins separated by 2 newline characters vvvv
 ```
 >[string]
@@ -29,6 +33,9 @@ This is the faster version of chembl-similarity-protein.py, done with asynchrono
 
 ## vicmpred.py
 VICMpred an SVM-based functional classification server for Gram-negative bacterial proteins that functionally classify the proteins into different categories based on amino acid composition. The script takes input from a file.
+
+### Usage
+Open the python file and put your sequencees in the 'sequences' array/list.
 
 The txt contains FASTA formatted proteins separated by 2 newline characters vvvv
 ```

@@ -2,6 +2,8 @@ import asyncio
 import aiohttp
 import time
 
+filename = 'enh.txt' # change this to your file name!
+
 async def submit_chembl_job(key, value):
     data = {"sequence": value,
             "dl__ignore_cache": "true",
@@ -29,7 +31,7 @@ async def download_chembl_job_results(job_id):
     return search_results
 
 async def main():
-    with open('enh.txt', 'r') as f:
+    with open(filename, 'r') as f:
         enh_list = f.read().split('\n\n')
         enh_dict = {enh.split('\n')[0]: enh.split('\n')[1] for enh in enh_list}
     

@@ -2,7 +2,9 @@
 import requests
 import time 
 
-with open('enh.txt', 'r') as f:
+filename = 'enh.txt' # change this to your file name!
+
+with open(filename, 'r') as f:
     enh_list = f.read().split('\n\n')
     enh_dict = {enh.split('\n')[0]: enh.split('\n')[1]for enh in enh_list}
     
