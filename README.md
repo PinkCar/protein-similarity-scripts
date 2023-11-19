@@ -7,6 +7,17 @@ Feel free to use the scripts but, just put me in the reference! ^^
 ## chembl-similarity-protein.py
 ChEMBL is a curated database of bioactive chemical compounds maintained by the EMBL. The script takes input from a file.
 
+### Install requirements
+pip3 install -r  requirements.txt
+or
+pip install -r  requirements.txt
+#### Recommended: use a separate python environment before installing the requirements
+1. Using python
+python -m venv /path/to/new/virtual/environment.
+
+2. Using Conda
+https://saturncloud.io/blog/how-to-create-a-conda-environment-with-a-specific-python-version/
+
 
 ### Usage
 Open the python file using a code/text editor and change the variable 'filename' to your file name.
